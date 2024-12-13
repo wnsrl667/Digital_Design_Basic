@@ -1,0 +1,29 @@
+xmelab(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmelab(64)	23.03-s013: Started on Dec 11, 2024 at 13:06:56 KST
+xmelab
+    -MESS
+    -access rwc
+    tb_adder
+
+	Elaborating the design hierarchy:
+		Caching library 'sim' ....... Done
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		sim.adder:module <0x774d93bb>
+			streams:  16, words:  7561
+		sim.tb_adder:module <0x5bdf5d95>
+			streams:   8, words:  7164
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:              16      16
+		Scalar wires:            3       -
+		Vectored wires:          5       -
+		Always blocks:           3       3
+		Initial blocks:          1       1
+		Pseudo assignments:      6       -
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: sim.tb_adder:module
+TOOL:	xmelab(64)	23.03-s013: Exiting on Dec 11, 2024 at 13:06:56 KST  (total: 00:00:00)
